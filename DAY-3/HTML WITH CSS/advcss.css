@@ -1,0 +1,6 @@
+.box-model{
+    background-color: darkcyan;
+    margin: 5px;
+    padding: 100px;
+    border: solid 5px palevioletred;
+}
