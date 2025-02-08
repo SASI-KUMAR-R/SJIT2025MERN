@@ -1,6 +1,21 @@
 .box-model{
     background-color: darkcyan;
     margin: 5px;
-    padding: 100px;
+    padding: 30px;
     border: solid 5px palevioletred;
+}
+.fixed-position
+{
+    position: fixed;
+    background-color: rgb(118, 175, 198);
+    text-align: center;
+    margin: 0;
+    margin-top: 10px ;
+    width: 1920px;
+    padding: 10px;
+}
+.relative-position
+{
+    position: relative;
+    margin-top: 15px;
 }
