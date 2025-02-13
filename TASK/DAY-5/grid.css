@@ -16,16 +16,3 @@ img{
     height: 180px;
     margin-top: 10px;
 }
-@media screen and (max-width: 500px) {
-    .container{
-        grid-template-columns: repeat(2, 1fr); 
-    }
-    .gird-items
-    {
-        margin: 5px;
-        height: 200px; 
-    }
-    img{
-        height: 150px; 
-    }   
-}
