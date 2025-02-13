@@ -10,7 +10,8 @@ nav{
     background-color:orangered ;
     padding: 20px;
 }
-a{
+a
+{
     text-decoration: none;;
     /* text-decoration-color: white; */
     color: white;
@@ -27,7 +28,6 @@ a{
     border-radius: 10px;
     text-decoration: underline;
 }
-
 h1
 {
     display: inline;
@@ -35,47 +35,11 @@ h1
 header{
     background-color: orangered;
 }
-ul{
-    display: inline;
-}
+ol{
 
-
-@media screen and (max-width : 675px) {
-    body{
-        margin: 0;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        justify-content: space-evenly;
-        background-color:orangered ;
-        padding: 20px;
-    }
-    a{
-        text-decoration: none;;
-        color: white;
-    }
-    .link{
-        text-decoration: none;
-        color: white;
-        padding: 3px;
-    }
-    .link:hover
-    {
-        background-color: black;
-        border-radius: 10px;
-        text-decoration: underline;
-    }
-    h1
-    {
-        display: inline;
-    }
-    header{
-        background-color: orangered;
-    }
-    ul{
-        display: inline;
-    }
-    
+    padding-left: 0;
+    margin-top: 25px;
+    /* margin:0; */
+    position: absolute;
+    list-style-type: none;
 }
