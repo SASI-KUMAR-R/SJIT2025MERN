@@ -1,0 +1,11 @@
+console.log("LOGINAL AND")
+// console.log(5&&10)
+// console.log(false&&true)
+// console.log(true&&true)
+// console.log(true&&false)
+
+// console.log("LOGINAL OR")
+// console.log(5||10)
+// console.log(true||false)
+// console.log(false||false)
+// console.log(false||true)
