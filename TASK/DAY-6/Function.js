@@ -23,3 +23,18 @@ function returnnamewithsome(name)
 }
 res = returnnamewithsome("SASIKUMAR")
 console.log(res);
+
+// ----------------// ----------------// ----------------// ----------------// ----------------// ----------------
+object1={
+    firstname:"St.Joseph's",
+    "lastname":"Institute of Technology",
+    "depts":["CSE","IT","ADS","ECE"],
+    "training":"MERN"
+}
+Object.entries(object1).forEach(([key,ele])=>{
+    console.log(key,ele);
+})
+
+// --------------------------------------------------
+let printhello = (name) => "Hello " + name;
+console.log(printhello("World"));
