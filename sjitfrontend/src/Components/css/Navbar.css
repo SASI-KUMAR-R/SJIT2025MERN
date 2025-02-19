@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
