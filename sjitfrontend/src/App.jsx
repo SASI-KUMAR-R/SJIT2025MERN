@@ -7,6 +7,7 @@ import UseEffectComponent from './Components/FunctionComponents/Hooks/useEffect'
 import Navbar from './Components/FunctionComponents/Navbar'
 import Gallery from './Components/FunctionComponents/Gallery'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Login from './Components/FunctionComponents/Login'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/use-effect' element={<UseEffectComponent />} />
           <Route path='/Gallery' element={<Gallery />} />
           <Route path='/signup' element={<Signup />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </main>

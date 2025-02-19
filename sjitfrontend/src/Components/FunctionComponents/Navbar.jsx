@@ -1,5 +1,8 @@
 import '../css/Navbar.css'
 import { Link } from 'react-router-dom'
+
+import DropDown, { DropDownItem } from './DropDown'
+import {Package, ShoppingCart } from "react-feather"
 const navbar = () => {
     return (
         <header>
@@ -16,12 +19,19 @@ const navbar = () => {
                     <li>
                         <Link to={"/use-effect"}>useEffect</Link>
                     </li>
-                    
                 </ol>
-
             </div>
             <li><Link to={"/Img"}>Contact</Link></li>
             <li><Link to={"/Signup"}>Signup</Link></li>
+            <DropDown trigger={<button>MENU</button>}>
+            <DropDownItem>
+                One
+            </DropDownItem>
+            <DropDownItem>
+                Two
+            </DropDownItem>
+            
+            </DropDown>
         </nav>
     </header>
     )
