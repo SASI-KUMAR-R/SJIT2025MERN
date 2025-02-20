@@ -25,7 +25,7 @@ function About(){
             <h3>Updating State : {num}</h3>
             <button onClick={plus}>+</button>
             <br />
-            <button onClick={reset}>RESET</button>
+            <button onDoubleClick={reset}>RESET</button>
         </div>
     )
 }

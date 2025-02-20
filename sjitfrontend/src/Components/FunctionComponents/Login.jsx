@@ -9,17 +9,17 @@ const Login = () => {
         <form>
             <div className="FormInput">
                 <label>Email:</label>
-                <input type="email" id="Email" placeholder="Enter your Email"/>
+                <input  id="Email" placeholder="Enter your Email"/>
 
                 <label>Password:</label>
-                <input type="text" id="Password" placeholder="Enter your Password"/>
-                <button type="submit" class="btn">Login</button>
+                <input id="Password" placeholder="Enter your Password"/>
+                <button class="btn">Login</button>
             </div>
         </form>
         <div className='signup'>
             <p>Don't have an account?</p>
             <br />
-            <Link to="/signup" type="submit" class="signupbtn">SignUp</Link>
+            <Link to="/signup" class="signupbtn">SignUp</Link>
         </div>
     </div>
 
