@@ -26,23 +26,46 @@ const Navbar = () => {
           {dropdown && (
             <ol className="dropdown-list">
               <li>
-                <Link to={"/use-state"}  className="navlink">useState</Link>  
+                <Link to={"/use-state"} className="navlink">
+                  useState
+                </Link>
               </li>
               <li className="link">
-                <Link to={"/use-effect"}  className="navlink">useEffect</Link>
+                <Link to={"/use-effect"} className="navlink">
+                  useEffect
+                </Link>
               </li>
               <li className="link">
-                <Link to={"/use-effect-api"}  className="navlink">useEffectWithAPI</Link>
+                <Link to={"/use-effect-api"} className="navlink">
+                  useEffectWithAPI
+                </Link>
               </li>
               <li className="link">
-                <Link to={"/use-ref"}  className="navlink">useRef</Link>
+                <Link to={"/use-ref"} className="navlink">
+                  useRef
+                </Link>
               </li>
               <li className="link">
-                <Link to={"/use-memo"}  className="navlink">UseMemo</Link>
+                <Link to={"/use-memo"} className="navlink">
+                  UseMemo
+                </Link>
+              </li>
+              <li className="link">
+                <Link to={"/use-callback"} className="navlink">
+                  UseCallback
+                </Link>
+              </li>
+              <li className="link">
+                <Link to={"/use-memoize"} className="navlink">
+                  UseMemoize
+                </Link>
               </li>
             </ol>
           )}
         </div>
+        <li className="navli">
+          <Link to={"/hoc"}>HoC</Link>
+        </li>
 
         <li className="navli">
           <Link to={"/Img"}>Contact</Link>
