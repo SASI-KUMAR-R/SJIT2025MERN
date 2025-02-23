@@ -13,6 +13,8 @@ import UseMemo from './Components/FunctionComponents/Hooks/UseMemo'
 import UseCallback from './Components/FunctionComponents/Hooks/UseCallback'
 import UseMemoize from './Components/FunctionComponents/Hooks/useMemoize'
 import HoC from './Components/FunctionComponents/HoC/HoC'
+import Memo from './Components/FunctionComponents/Memoization/Memo'
+import LazyLoadingAndSusepense from './Components/FunctionComponents/Memoization/LazyLoadingAndSuspense'
 function App() {
   return (
     <main>
@@ -30,8 +32,11 @@ function App() {
           <Route path='/hoc' element={<HoC />} />
           <Route path='/use-ref' element={<UseRef />} />
           <Route path='/use-memo' element={<UseMemo />} />
+          <Route path='/lazy' element={<LazyLoadingAndSusepense />} />
           <Route path='/use-callback' element={<UseCallback />} />
           <Route path='/use-memoize' element={<UseMemoize />} />
+          <Route path='/example' element={<Memo />} />
+          {/* <Route path='/example2' element={<NumberFile />} /> */}
         </Routes>
       </BrowserRouter>
     </main>

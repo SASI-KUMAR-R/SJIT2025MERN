@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   var [dropdown, showDropdown] = useState(false);
+  var [dropdown1, showDropdown1] = useState(false);
   return (
     <header>
       <nav style={{ listStyleType: "circle" }}>
@@ -66,6 +67,31 @@ const Navbar = () => {
         <li className="navli">
           <Link to={"/hoc"}>HoC</Link>
         </li>
+
+
+        <div
+          className="dropmain"
+          onMouseEnter={() => showDropdown1(!dropdown1)}
+          onMouseLeave={() => showDropdown1(!dropdown1)}
+        >
+          <span>Memoization</span>
+          {dropdown1 && (
+            <ol className="dropdown-list">
+              <li className="link">
+                <Link to={"/example"} className="navlink">
+                  Memo
+                </Link>
+              </li>
+              <li className="link">
+                <Link to={"/lazy"} className="navlink">
+                  LazyLoading
+                </Link>
+              </li>
+            </ol>
+          )}
+        </div>
+
+
 
         <li className="navli">
           <Link to={"/Img"}>Contact</Link>
