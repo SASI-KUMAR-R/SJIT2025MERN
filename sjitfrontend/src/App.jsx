@@ -15,6 +15,7 @@ import UseMemoize from './Components/FunctionComponents/Hooks/useMemoize'
 import HoC from './Components/FunctionComponents/HoC/HoC'
 import Memo from './Components/FunctionComponents/Memoization/Memo'
 import LazyLoadingAndSusepense from './Components/FunctionComponents/Memoization/LazyLoadingAndSuspense'
+import StudentResults from './Components/FunctionComponents/ContextAPI/StudentResults'
 function App() {
   return (
     <main>
@@ -32,6 +33,7 @@ function App() {
           <Route path='/hoc' element={<HoC />} />
           <Route path='/use-ref' element={<UseRef />} />
           <Route path='/use-memo' element={<UseMemo />} />
+          <Route path='/result' element={<StudentResults sgpa="9sgpa" cgpa="9cgpa"/>} />
           <Route path='/lazy' element={<LazyLoadingAndSusepense />} />
           <Route path='/use-callback' element={<UseCallback />} />
           <Route path='/use-memoize' element={<UseMemoize />} />

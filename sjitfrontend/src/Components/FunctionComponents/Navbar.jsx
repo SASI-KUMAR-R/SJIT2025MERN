@@ -90,7 +90,11 @@ const Navbar = () => {
             </ol>
           )}
         </div>
-
+        <li className="navli">
+                <Link to={"/result"} className="navlink">
+                  STUDENT RESULT
+                </Link>
+          </li>
 
 
         <li className="navli">
