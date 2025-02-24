@@ -1,10 +1,8 @@
 const express = require("express");
 const app = express();
 
-app.get("/",(req,res) => {
-    res.send(
-        "<h1> WELCOME  <h1/>"
-    )
+app.get("/static",(req,res) => {
+    res.sendFile("/Users/delishsasir/MYFILES/DEVLOP_PACK/MERN_STACK/DAY-2/HTML_CSS/index.html")
 })
 
 
